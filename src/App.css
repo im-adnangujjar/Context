@@ -32,7 +32,57 @@
   from {
     transform: rotate(0deg);
   }
+
   to {
     transform: rotate(360deg);
   }
+}
+
+
+ /* padding:0px;
+  margin:'0px;
+  box-sizing:border-box */
+
+html {
+  font-size: 62.5%;
+  overflow-x: hidden;
+    font-family:work sans,sans-serif;
+}
+
+h1 {
+  font-size: 6rem;
+  font-weight: 900;
+  white-space: normal;
+  /* color:${({ theme }) =>  theme.colors.heading}; */
+  /* text-align: center; */
+}
+
+h3 {
+  font-size: 1.8rem;
+  font-weight: 400;
+}
+
+p {
+  opacity: 7;
+  font-size: 1.65rem;
+  line-height: 2.5rem;
+  font-weight: 400;
+  margin-top: 1rem;
+}
+
+a {
+  text-decoration: none;
+}
+
+li {
+  list-style: none;
+}
+
+.mainContainer {
+  max-width: 120rem;
+  padding: 9rem;
+  margin: 0px;
+  display: grid;
+  gap: 9rem;
+  grid-template-columns: repeat(2, 1fr);
 }
