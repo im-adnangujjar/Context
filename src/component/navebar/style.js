@@ -3,10 +3,13 @@ export const NavbarStyle = styled.div`
 .container {
     padding: 0 4.8rem;
     height: 10rem;
-    background-color: gray;
+    backdrop-filter: blur(8px);
+    background-color: transparent;
+    border-bottom:1px solid gray;
     display: flex;
     justify-content: space-between;
     align-items: center;
+  
 }
 
 .logo {

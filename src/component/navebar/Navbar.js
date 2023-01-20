@@ -13,7 +13,7 @@ function Navbar() {
                 <NavLink className={'navbarLink'} to="/">
                     <img className={'logo'} src={logo} alt='logo' />
                 </NavLink>
-                <div className={'container'}>
+                <div>
 
                     <ul className={'navList'}>
                         <li >

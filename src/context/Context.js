@@ -4,13 +4,12 @@ import React from 'react';
 const AppContext = React.createContext()
 
 
-const AppProvider = ({ childern }) => {
+const AppProvider = ({ children }) => {
 
-    return (
-        <AppContext.Provider value="Adnan">
-            {childern}
-        </AppContext.Provider>
-    )
+    return (  <AppContext.Provider value="Adnan">
+            {children}
+        </AppContext.Provider>)
+    
 
 
 };

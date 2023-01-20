@@ -39,14 +39,10 @@
 }
 
 
- /* padding:0px;
-  margin:'0px;
-  box-sizing:border-box */
-
 html {
   font-size: 62.5%;
   overflow-x: hidden;
-    font-family:work sans,sans-serif;
+  font-family: work sans, sans-serif;
 }
 
 h1 {
